@@ -1,0 +1,87 @@
+@import './mixin';
+@import './breakpoint';
+// define variable
+$text:#333333;
+$text-white:#FFFFFF;
+$text-red:#C60A0A;
+$text-pink:#FF6195;
+$text-blue:#007BCE;
+//bg
+$primary:#00306E;
+$secondary:#FFAA17;
+$bg-light:#E3F6FD;
+
+//class
+:root {
+    font-size: 10px;
+}
+
+body {
+    color: $text;
+    font-family: YuGothic;
+    font-weight: normal;
+    &::-webkit-scrollbar {display: none;}
+    overflow-x: hidden;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+.mttl {
+   @include mttl;
+}
+.text__red {color:$text-red;}
+.text__pink {color:$text-pink;}
+.text__blue {color: $text-blue;}
+.btn__act {
+    background-color:$secondary;
+    font-weight: bold;
+    color:$text-white;
+    font-size: 2.2rem;
+    min-height:68px;
+    border: none;
+    border-bottom:8px solid #E39C22;
+    width: calc(100% - 3.2rem);
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    @include flex-center(row); 
+    .point{
+        width: 41px;
+        height: 41px;
+        margin-right: 1.4rem;
+    }
+    .sm{
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+    @include lg-mobile {
+        font-size: 3rem;
+        .sm {font-size: 1.6rem;}
+        .point {width: 55px;height: 55px;}
+    }
+    @include lg-tablet {
+        width: 700px;
+        margin: 0 auto;
+        font-size: 4.4rem;
+        .sm {font-size: 2.6rem;}
+        .point {width: 79px;height: 78px;}
+    }
+}
+.mv {
+    &.sp {display: block;}
+    &.pc {display: none;}
+    &.pcc{display: none;}
+    @include tablet  {
+        &.sp {display: none;}
+        &.pc {display: block!important;}
+    }
+    @include lg-tablet {
+        &.pcc {
+            display: block;
+        }
+        &.spp {
+            display: none;
+        }
+    }
+  }

@@ -1,0 +1,25 @@
+@mixin flex-center($flex-dir) {
+        display: flex;
+        flex-direction: $flex-dir;
+        justify-content: center;
+        align-items: center;
+}
+@mixin flex($flex-dir,$justify) {
+    display: flex;
+    flex-direction: $flex-dir;
+    justify-content: $justify;
+    align-items: center;
+}
+@mixin mttl {
+    background: $primary;
+    font-family: YuGothic-bold;
+    color: $text-white;
+    font-size:2.2rem;
+    text-align: center;
+    font-weight: bold;
+    min-height: 83px;
+    @include flex(column,center);
+    @include lg-mobile {flex-direction: row;}
+    @include lg-tablet {font-size: 4rem;min-height: 150px;}
+    box-sizing: border-box;
+}
