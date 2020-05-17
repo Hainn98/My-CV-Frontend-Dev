@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/application.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ribeye+Marrow&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i&display=swap&subset=latin-ext"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="unloggin__header">
+            <div class="menu__pc">
+                <!-- <nav class="sub__menu_wp">
+                    <ul class="sub__menu">
+                        <li><a href="#">TIẾNG ANH</a></li>
+                        <li><a href="#">TOÁN</a></li>
+                        <li><a href="#">TIẾNG VIỆT</a></li>
+                    </ul>
+                    <div class="hotline flex__center__center">
+                        <img src="assets/images/icons/phone.png" alt="" srcset=""> Hotline: 090 3587 689
+                    </div>
+                </nav> -->
+                <nav class="main__menu_wp">
+                    <div class="logo__menu">
+                        <div id="logo">
+                            <a href="#">
+                                <img src="assets/images/icons/vh-logo.png" alt="">
+                            </a>
+                        </div>
+                        <ul class="main__menu">
+                            <li><a target="_blank" href="">Trang chủ</a></li>
+                            <li><a target="_blank" href="">Lớp 3</a></li>
+                            <li><a target="_blank" href="">Lớp 4</a></li>
+                            <li><a target="_blank" href="">Lớp 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="account__setting flex__between__center js__active-acount" >
+                        <a class="btn btn--signup js-signup index" href="#">
+                            <img class="user__light_index" src="assets/images/icons/user-light.png" alt="">
+                            ĐĂNG KÝ
+                        </a>
+                        <a class="btn btn--signin js-signin index" href="#">
+                            <img src="assets/images/icons/key-light.png" alt="">
+                            ĐĂNG NHẬP
+                        </a>
+                    </div>
+                    <!-- <div class="account__setting login flex__between__center">
+                        <a class="btn btn--signin index btn__active__account bg__white" href="#">
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.875 6.42109H11.7117L16.3546 0.554688C16.4507 0.430469 16.364 0.25 16.207 0.25H7.2187C7.15308 0.25 7.0898 0.285156 7.05698 0.34375L0.984328 10.832C0.911672 10.9563 1.00073 11.1133 1.14605 11.1133H5.23355L3.13823 19.4945C3.0937 19.6773 3.31402 19.8062 3.44995 19.675L17.0039 6.74219C17.1257 6.62734 17.0437 6.42109 16.875 6.42109Z"
+                                    fill="white" />
+                            </svg>
+
+                            kích hoạt khoá học
+                        </a>
+                        <div class="notifi__wp">
+                            <div class="thumb btn__noti">
+                                <img src="assets/images/icons/noti-bell.png" alt="">
+                            </div>
+                            <div class="tab__noti_wp">
+                                <h3 class="noti__title">Thông báo</h3>
+                                <div id="tabs" class="tab__noti">
+                                    <ul class="tab__noti_list">
+                                        <li class="tab__noti_list_item"><a href="#tabs-1">Tất cả</a></li>
+                                        <li class="tab__noti_list_item"><a href="#tabs-2">Chưa đọc</a></li>
+                                    </ul>
+                                    <div id="tabs-1">
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tabs-2">
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user__noti">
+                                            <div class="thumb"><img src="assets/images/pages/lesson-details/teacher-01.png" alt=""></div>
+                                            <div class="noti__desc">
+                                                <time>April 10, 2019 5:08 PM - User1 đã bình luận:</time>
+                                                <p class="noti__detail">
+                                                    Eu pellentesque nulla non auctor. Tincidunt dolor nibh libero convallis ornare adipiscing enim, ultricies. Pulvinar non, quis sed pellentesque augue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="wp__user">
+                            <div class="wp__content__user_info">
+                                <div class="user__name__wp">
+                                    <p class="user__name">Nguyễn Ngọc A</p>
+                                    <div class="user__vip">
+                                        <div class="thumb"><img src="assets/images/icons/vip.png" alt=""></div>
+                                        <span class="vip__label">VIP 1</span>
+                                    </div>
+                                </div>
+                                <div class="user__thumb">
+                                    <img src="assets/images/pages/lesson-details/teacher-01.png" alt="">
+                                </div>
+                                <div class="wp__dots">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <ul class="drop__downn_menu">
+                                <li><a href="">
+                                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.7289 11.271L8.375 14.6249L5.02109 11.271C2.50742 11.38 0.5 13.4366 0.5 15.9749V16.3124C0.5 17.244 1.25586 17.9999 2.1875 17.9999H14.5625C15.4941 17.9999 16.25 17.244 16.25 16.3124V15.9749C16.25 13.4366 14.2426 11.38 11.7289 11.271ZM0.978125 2.80537L1.20312 2.85811V4.91123C0.957031 5.05889 0.78125 5.31553 0.78125 5.6249C0.78125 5.92021 0.942969 6.16631 1.17148 6.31748L0.623047 8.50771C0.563281 8.75029 0.696875 8.9999 0.890234 8.9999H2.35977C2.55313 8.9999 2.68672 8.75029 2.62695 8.50771L2.07852 6.31748C2.30703 6.16631 2.46875 5.92021 2.46875 5.6249C2.46875 5.31553 2.29297 5.05889 2.04688 4.91123V3.06201L4.36719 3.621C4.06484 4.22568 3.875 4.90068 3.875 5.6249C3.875 8.11045 5.88945 10.1249 8.375 10.1249C10.8605 10.1249 12.875 8.11045 12.875 5.6249C12.875 4.90068 12.6887 4.22568 12.3828 3.621L15.7684 2.80537C16.4082 2.65068 16.4082 1.85264 15.7684 1.69795L9.07461 0.0807617C8.61758 -0.0282227 8.13594 -0.0282227 7.67891 0.0807617L0.978125 1.69443C0.341797 1.84912 0.341797 2.65068 0.978125 2.80537Z"
+                                                fill="black" />
+                                        </svg>
+                                        Thông tin cá nhân
+                                    </a></li>
+                                <li><a href="">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.375 3.375C12.375 1.51102 10.864 0 9 0C7.13602 0 5.625 1.51102 5.625 3.375C5.625 5.23898 7.13602 6.75 9 6.75C10.864 6.75 12.375 5.23898 12.375 3.375ZM8.21215 8.47617C6.12633 7.1993 2.74781 6.84844 1.04766 6.75176C0.476367 6.71941 0 7.15465 0 7.70414V15.537C0 16.0407 0.407461 16.4609 0.931289 16.4879C2.46621 16.5684 5.57156 16.8634 7.71785 17.9445C8.04727 18.1104 8.43785 17.8843 8.43785 17.5271V8.87906C8.4375 8.71488 8.35629 8.56441 8.21215 8.47617ZM16.9523 6.75176C15.2525 6.84809 11.8737 7.1993 9.7882 8.47617C9.64406 8.56441 9.56285 8.72086 9.56285 8.88504V17.5261C9.56285 17.8843 9.95449 18.1107 10.285 17.9445C12.4309 16.8645 15.5345 16.5695 17.0691 16.489C17.5929 16.4616 18.0004 16.0414 18.0004 15.5377V7.70414C18 7.15465 17.5236 6.71941 16.9523 6.75176Z"
+                                                fill="black" />
+                                        </svg>
+                                        Khoá học của tôi
+                                    </a></li>
+                                <li><a href="">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.25 0.5V15.5C3.4475 15.125 0.5 11.9075 0.5 8C0.5 4.0925 3.4475 0.875 7.25 0.5ZM8.7725 0.5V7.2425H15.5C15.1475 3.6875 12.32 0.8525 8.7725 0.5ZM8.7725 8.7575V15.5C12.3275 15.1475 15.1475 12.3125 15.5 8.7575H8.7725Z"
+                                                fill="black" />
+                                        </svg>
+                                        Quá trình học tập
+                                    </a></li>
+                                <li><a href="">
+                                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.9061 5.31582H9.03363L12.5159 0.916016C12.5879 0.822852 12.5229 0.6875 12.4051 0.6875H5.66391C5.61469 0.6875 5.56723 0.713867 5.54262 0.757812L0.988124 8.62402C0.933632 8.71719 1.00043 8.83496 1.10941 8.83496H4.17504L2.60355 15.1209C2.57016 15.258 2.73539 15.3547 2.83734 15.2562L13.0028 5.55664C13.0942 5.47051 13.0327 5.31582 12.9061 5.31582Z"
+                                                fill="black" />
+                                        </svg>
+                                        Kích hoạt khoá học
+                                    </a></li>
+                                <li class="logout"><a href="">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path class="logout"
+                                                d="M10.25 1.25H13.25C13.6478 1.25 14.0294 1.40804 14.3107 1.68934C14.592 1.97064 14.75 2.35218 14.75 2.75V13.25C14.75 13.6478 14.592 14.0294 14.3107 14.3107C14.0294 14.592 13.6478 14.75 13.25 14.75H10.25"
+                                                stroke="#DD0000" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M6.5 11.75L10.25 8L6.5 4.25" stroke="#DD0000" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.25 8H1.25" stroke="#DD0000" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        Đăng xuất
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </nav>
+            </div>
+            <div class="menu__sp">
+                <nav class="menu__respon">
+                    <div class="logo__respon">
+                        <img src="assets/images/icons/vh-logo.png" alt="">
+                    </div>
+                    <div class="btn__menu_respon icon__menu_respon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+            <div class="widget__menu_respon hidden">
+                <ul class="menu__respon_list">
+                    <li class="menu__respon_item">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="menu__respon_item">
+                        <a href="#">Lớp 3</a>
+                    </li>
+                    <li class="menu__respon_item">
+                        <a href="#">Lớp 4</a>
+                    </li>
+                    <li class="menu__respon_item ">
+                        <a href="#">Lớp 5</a>
+                    </li>
+                </ul>
+
+                <div class="widget__menu_respon_action">
+                    <a class="hotline-sp" href="tel:090 3587 689">
+                      <svg class="m-r-10" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M4.82667 10.3867C6.74667 14.16 9.84 17.24 13.6133 19.1733L16.5467 16.24C16.9067 15.88 17.44 15.76 17.9067 15.92C19.4 16.4133 21.0133 16.68 22.6667 16.68C23.4 16.68 24 17.28 24 18.0133V22.6667C24 23.4 23.4 24 22.6667 24C10.1467 24 0 13.8533 0 1.33333C0 0.6 0.6 0 1.33333 0H6C6.73333 0 7.33333 0.6 7.33333 1.33333C7.33333 3 7.6 4.6 8.09333 6.09333C8.24 6.56 8.13333 7.08 7.76 7.45333L4.82667 10.3867Z" fill="#FF6609"/>
+                        </svg>
+                      Hotline: 090 3587 689
+                    </a>
+                    <div class="gruop-button-headder flex__wrap flex__between__center js__active-acount">
+                      <a class="widget__menu_respon_register js-signup" href="#">
+                        <svg class="m-r-5" xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                          <path d="M10.4902 0C4.97023 0 0.490234 4.48 0.490234 10C0.490234 15.52 4.97023 20 10.4902 20C16.0102 20 20.4902 15.52 20.4902 10C20.4902 4.48 16.0102 0 10.4902 0ZM14.1002 6.34C15.1702 6.34 16.0302 7.2 16.0302 8.27C16.0302 9.34 15.1702 10.2 14.1002 10.2C13.0302 10.2 12.1702 9.34 12.1702 8.27C12.1602 7.2 13.0302 6.34 14.1002 6.34ZM8.10023 4.76C9.40024 4.76 10.4602 5.82 10.4602 7.12C10.4602 8.42 9.40024 9.48 8.10023 9.48C6.80023 9.48 5.74023 8.42 5.74023 7.12C5.74023 5.81 6.79024 4.76 8.10023 4.76ZM8.10023 13.89V17.64C5.70023 16.89 3.80023 15.04 2.96023 12.68C4.01023 11.56 6.63023 10.99 8.10023 10.99C8.63023 10.99 9.30023 11.07 10.0002 11.21C8.36023 12.08 8.10023 13.23 8.10023 13.89ZM10.4902 18C10.2202 18 9.96023 17.99 9.70023 17.96V13.89C9.70023 12.47 12.6402 11.76 14.1002 11.76C15.1702 11.76 17.0202 12.15 17.9402 12.91C16.7702 15.88 13.8802 18 10.4902 18Z" fill="#FF6609"/>
+                          </svg>
+                        Đăng kí
+                      </a>
+                      <a class="widget__menu_respon_login js-signin" href="#">
+                        <svg class="m-r-5" xmlns="http://www.w3.org/2000/svg" width="23" height="12" viewBox="0 0 23 12" fill="none">
+                          <path d="M12.15 4C11.33 1.67 9.11 0 6.5 0C3.19 0 0.5 2.69 0.5 6C0.5 9.31 3.19 12 6.5 12C9.11 12 11.33 10.33 12.15 8H16.5V12H20.5V8H22.5V4H12.15ZM6.5 8C5.4 8 4.5 7.1 4.5 6C4.5 4.9 5.4 4 6.5 4C7.6 4 8.5 4.9 8.5 6C8.5 7.1 7.6 8 6.5 8Z" fill="white"/>
+                          </svg>
+                        Đăng nhập
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="loggin__header">
+            <div class="menu__pc">
+                <nav class="sub__menu_wp">
+                    <ul class="sub__menu">
+                        <li><a href="#">Tiếng Anh</a></li>
+                        <li><a href="#">Toán_Tiếng Viêt</a></li>
+                    </ul>
+                    <a href="#" class="my__courses">
+                        Khoá học của tôi
+                    </a>
+                </nav>
+                <nav class="main__menu_wp">
+                    <div id="logo">
+                        <a href="#">Vui_hoc</a>
+                    </div>
+                    <ul class="main__menu">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Lớp 3</a></li>
+                        <li><a href="#">Lớp 4</a></li>
+                        <li><a href="#">Lớp 5</a></li>
+                    </ul>
+                    <div class="account__setting">
+                        <a class="notification" href="#"><img src="dev/src/images/pages/notiIcon.png" alt=""></a>
+                        <div class="avatar__account_wp">
+                            <div class="avatar__account">
+                                <span class="user__name">Phuongnt</span>
+                                <img class="user__avatar" src="dev/src/images/pages/avar.png" alt="">
+                            </div>
+                            <ul class="avatar__account_dropdown">
+                                <li><a href="/tai-khoan/thong-tin"><i class="fas fa-user"></i> Thông tin cá nhân</a>
+                                </li>
+                                <li><a href="/tai-khoan/khoa-hoc"><i class="fab fa-leanpub"></i> Khóa học của
+                                        tôi</a></li>
+                                <li><a href="/tai-khoan/hoc-tap"><i class="fas fa-chart-pie"></i> Quá trình học
+                                        tập</a></li>
+                                <li><a href="/kich-hoat-khoa-hoc" title="Khóa học của tôi"><i
+                                            class="fas fa-star"></i> Khóa học của tôi</a></li>
+                                <li class="hidden"><a href="#" title="Hướng dẫn học"><i
+                                            class="far fa-life-ring"></i> Hướng dẫn học</a></li>
+                                <li><a href="#"><i class="fas fa-power-off"></i> Đăng
+                                        xuất</a></li>
+                                <li><a href="/module/common/dashboard/index"><i class="fas fa-cog"></i> Quản
+                                        trị</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+            <div class="menu__sp">
+                <nav class="menu__respon">
+                    <ul>
+                        <li class="icon__menu_respon"><img src="dev/src/images/pages/menu_respon.svg" alt=""></li>
+                        <li><a class="logo__respon" href="">Vui_hoc</a></li>
+                        <div class="avatar__account_wp">
+                            <div class="avatar__account">
+                                <img src="dev/src/images/pages/avar.png" alt="">
+                            </div>
+                            <ul class="avatar__account_dropdown">
+                                <li><a href="/tai-khoan/thong-tin"><i class="fas fa-user"></i> Thông tin cá nhân</a>
+                                </li>
+                                <li><a href="/tai-khoan/khoa-hoc"><i class="fab fa-leanpub"></i> Khóa học của
+                                        tôi</a></li>
+                                <li><a href="/tai-khoan/hoc-tap"><i class="fas fa-chart-pie"></i> Quá trình học
+                                        tập</a></li>
+                                <li><a href="/kich-hoat-khoa-hoc" title="Kích hoạt khóa học"><i
+                                            class="fas fa-star"></i> Kích hoạt khóa học</a></li>
+                                <li class="hidden"><a href="#" title="Hướng dẫn học"><i
+                                            class="far fa-life-ring"></i> Hướng dẫn học</a></li>
+                                <li><a href="#"><i class="fas fa-power-off"></i> Đăng
+                                        xuất</a></li>
+                                <li><a href="/module/common/dashboard/index"><i class="fas fa-cog"></i> Quản
+                                        trị</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="widget__menu_respon">
+                <div class="widget__menu_respon_head">
+                    <div class="widget__menu_respon_close">
+                        <img src="dev/src/images/pages/top/menu_respon_close.svg" alt="">
+                    </div>
+                    <a href="#" class="widget__menu_respon_register_btn">
+                        Kích hoạt tài khoản
+                    </a>
+                </div>
+                <div class="widget__menu_respon_action">
+                    <a class="widget__menu_respon_register" href="#">Đăng kí</a>
+                    <div class="border"></div>
+                    <a class="widget__menu_respon_login" href="#">Đăng nhập</a>
+                </div>
+                <ul class="menu__respon_list">
+                    <li class="menu__respon_item">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="menu__respon_item">
+                        <a href="#">Lớp 3</a>
+                    </li>
+                    <li class="menu__respon_item">
+                        <a href="#">Lớp 4</a>
+                    </li>
+                    <li class="menu__respon_item">
+                        <a href="#">Lớp 5</a>
+                    </li>
+                    <li class="menu__respon_item">
+                        <a href="#">Toán_Tiếng Việt</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+    </header>
+
+    <div id="page__top">
+
+        <!-- FIXED MESSENGER -->
+        <div class="fixed-messenger">
+            <img src="assets/images/icons/messenger.png" alt="">
+        </div>
+
+        <!-- Main Content -->
+        <div class="content__feature_box">
+            <div class="content__feature_box_slide_banner_item">
+                <img class="main__visual_img pc" src="assets/images/pages/top/hero_img.png" alt="">
+                <img class="main__visual_img sp" src="assets/images/pages/banner_topsp.png" alt="">
+            </div>
+            <div class="content__feature_box_wp flex__center__center flex__column">
+                <img src="assets/images/pages/top/mv-logo.png" alt="">
+                <h2 class="content__feature_box_headline">
+                    <p class="content__feature_box_headline_lg">Học tiếng anh Online như ở trường quốc tế</p>
+                    <p class="content__feature_box_headline_sm"> Hơn 90% học sinh đã đạt điểm 10 năm 2019</p>
+                </h2>
+                <a href="#dfd" class="btn btn__register btn--primary" id="js__active-register">Đăng kí ngay</a>
+            </div>
+        </div>
+
+        <!-- Học sinh tham gia học -->
+        <div class="content__feature_info">
+            <div class="content__feature_info_item">
+                <div class="content__feature_info_item_num flex__start__center">
+                    <img src="assets/images/icons/teacher.png" alt="">
+                    <div class="counter" data-count="2340">0</div>
+                </div>
+                <p class="content__feature_info_item_text">
+                    Học sinh tham gia học
+                </p>
+            </div>
+            <div class="content__feature_info_item">
+                <div class="content__feature_info_item_num flex__start__center">
+                    <img src="assets/images/icons/teacher.png" alt="">
+                    <div class="counter" data-count="32">0</div>
+                </div>
+                <p class="content__feature_info_item_text">
+                    Giáo viên giảng dạy
+                </p>
+            </div>
+            <div class="content__feature_info_item">
+                <div class="content__feature_info_item_num flex__start__center">
+                    <img src="assets/images/icons/company.png" alt="">
+                    <div class="counter" data-count="350">0</div>
+                </div>
+                <p class="content__feature_info_item_text">
+                    Bài học đạt chuẩn
+                </p>
+            </div>
+            <div class="content__feature_info_item">
+                <div class="content__feature_info_item_num flex__start__center">
+                    <img src="assets/images/icons/checkbox.png" alt="">
+                    <div class="no-counter" data-count="1.5">1.5 Triệu</div>
+                </div>
+                <p class="content__feature_info_item_text">
+                    Phút học
+                </p>
+            </div>
+        </div>
+
+        <!-- Chương trình học tại #VuiHocEng -->
+        <div class="study__program">
+            <h2 class="study__program_title">Chương trình học tại <span>#VUIHOCENG</span></h2>
+            <div class="study__program_detail flex__between__stretch">
+                <div class="study__program_detail_item">
+                    <a href="#">
+                        <div class="study__program_detail_item_img">
+                            <img class="study__program_img" src="assets/images/icons/ta-03.png" alt="">
+                        </div>
+                        <div class="study__program_detail_item_detail">
+                            <div class="study__program_detail_item_text">
+                                <h3 class="study__program_detail_item_h3">Tiếng Anh 3</h3>
+                                <p class="study__program_detail_item_p">
+                                    320 bài học <br>
+                                    Phát âm chuẩn quốc tế<br>
+                                    2 level dễ, khó
+                                </p>
+                            </div>
+                            <div class="wp__btn">
+                                <button class="study__program_detail_item_btn btn btn--primary">Đăng kí ngay</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="study__program_detail_item">
+                    <a href="#">
+                        <div class="study__program_detail_item_img">
+                            <img class="study__program_img " src="assets/images/icons/ta-04.png" alt="">
+                        </div>
+                        <div class="study__program_detail_item_detail">
+                            <div class="study__program_detail_item_text">
+                                <h3 class="study__program_detail_item_h3">Tiếng Anh 4</h3>
+                                <p class="study__program_detail_item_p">
+                                    320 bài học <br>
+                                    Phát âm chuẩn quốc tế<br>
+                                    2 level dễ, khó
+                                </p>
+                            </div>
+                            <div class="wp__btn">
+                                <button class="study__program_detail_item_btn btn btn--primary">Đăng kí ngay</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="study__program_detail_item">
+                    <a href="#">
+                        <div class="study__program_detail_item_img">
+                            <img class="study__program_img " src="assets/images/icons/ta-05.png" alt="">
+                        </div>
+                        <div class="study__program_detail_item_detail">
+                            <div class="study__program_detail_item_text">
+                                <h3 class="study__program_detail_item_h3">Tiếng Anh 5</h3>
+                                <p class="study__program_detail_item_p">
+                                    320 bài học <br>
+                                    Phát âm chuẩn quốc tế<br>
+                                    2 level dễ, khó
+                                </p>
+                            </div>
+                            <div class="wp__btn">
+                                <button class="study__program_detail_item_btn btn btn--primary">Đăng kí ngay</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <img src="assets/images/pages/top/bg-circle-top.png" alt="" class="bg__circle_top">
+        </div>
+
+        <!-- #VuiHocEng giúp con phát triển tiếng Anh như thế nào? -->
+        <div class="study__program_guide">
+            <h2 class="study__program_title">
+                <span>#VuiHocEng</span> giúp con phát triển tiếng Anh như thế nào?
+            </h2>
+            <div class="study__program_guide_wiget">
+                <div class="study__program_guide_widget_row flex__between__stretch">
+                    <div class="study__program_guide_widget_row_right">
+                        <a class="widget__img">
+                            <img src="assets/images/pages/top/learn-banner.png" alt="">
+                        </a>
+                        <img class="bg__group_top" src="assets/images/pages/top/bg_group_top.png" alt="">
+                    </div>
+
+                    <div class="study__program_guide_widget_row_left">
+                        <div class="widget__box_title">
+                            <h3 class="widget__title">
+                                Học qua video với giáo viên bản xứ
+                            </h3>
+                            <p class="widget__desc">
+                                Hệ thống bài học qua video trực quan, sinh động.
+                                Kết hợp với hoạt họa giúp cho các con tiếp thu kiến thức dễ dàng nhất
+                            </p>
+                        </div>
+                        <ul class="wiget__info_desc flex__around__stretch">
+                            <li>
+                                <img src="assets/images/icons/say.png" alt="">
+                                <span class="widget__info_text">
+                                    Giáo viên<br>
+                                    bản ngữ
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/hd.png" alt="">
+                                <span class="widget__info_text">
+                                    Chất lượng <br>
+                                    Full-HD
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/global.png" alt="">
+                                <span class="widget__info_text">
+                                    Học mọi lúc,<br>
+                                    mọi nơi
+                                </span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="study__program_guide_widget_row flex__between__stretch">
+                    <div class="study__program_guide_widget_row_right">
+                        <a class="widget__img pc">
+                            <img src="assets/images/pages/top/ex-banner.png" alt="">
+                        </a>
+                        <img class="bg__group_middle" src="assets/images/pages/top/bg_group_middle.png" alt="">
+                    </div>
+
+                    <div class="study__program_guide_widget_row_left">
+                        <div class="widget__box_title">
+                            <h3 class="widget__title">
+                                Dạng bài tập tương tác
+                            </h3>
+                            <p class="widget__desc">
+                                Rèn luyện kỹ năng nghe, nói, từ vựng cho các con. Với phương pháp tổ chức bài
+                                tập dưới dạng tương tác giúp các con không bị nhàm chán khi làm bài
+                            </p>
+                        </div>
+                        <ul class="wiget__info_desc flex__around__stretch">
+                            <li>
+                                <img src="assets/images/icons/hear.png" alt="">
+                                <span class="widget__info_text">
+                                    Nghe
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/child.png" alt="">
+                                <span class="widget__info_text">
+                                    Nói
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/book.png" alt="">
+                                <span class="widget__info_text">
+                                    Từ vựng
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="study__program_guide_widget_row flex__between__stretch">
+                    <div class="study__program_guide_widget_row_right">
+                        <a class="widget__img pc">
+                            <img src="assets/images/pages/top/sys-banner.png" alt="">
+                        </a>
+                        <img class="bg__group_bottom" src="assets/images//pages/top/bg_group_bottom.png" alt="">
+                    </div>
+
+                    <div class="study__program_guide_widget_row_left">
+                        <div class="widget__box_title">
+                            <h3 class="widget__title">
+                                Hệ thống đánh giá
+                            </h3>
+                            <p class="widget__desc">
+                                Giúp phụ huynh và học sinh có thể theo dõi được lộ trình học, khả năng phát
+                                triển Tiếng Anh của con hàng ngày
+                            </p>
+                        </div>
+                        <ul class="wiget__info_desc flex__around__stretch">
+                            <li>
+                                <img src="assets/images/icons/chart.png" alt="">
+                                <span class="widget__info_text">
+                                    Theo dõi tiến <br />triển của con
+                                </span>
+                            </li>
+                            <li>
+                                <img src="assets/images/icons/rank.png" alt="">
+                                <span class="widget__info_text">
+                                    Thang điểm xếp <br> hạng
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="bg__circle_bt" src="assets/images/pages/top/bg-circle-bt.png" alt="">
+            </div>
+        </div>
+
+        <!-- Thay đổi sau 1 khóa học -->
+        <div class="study__program_reviews">
+            <h2 class="study__program_reviews_title">Thay đổi sau 1 khóa học</h2>
+            <div class="study__program_reviews_list_slide"style="overflow:hidden;" >
+                <div class="slide__item">
+                    <div class="slide__item_thumb">
+                        <img src="assets/images/pages/top/course-01.png" alt="">
+                    </div>
+                    <div class="slide__item__body flex__center__center flex__column">
+                        <h3 class="study__program_reviews_list_title flex__center__center flex__column">
+                            Bé <strong>Trí Quang</strong>
+                        </h3>
+                        <p class="study__program_reviews_list_desc">
+                            Tiếng Anh lớp 3 - Phát âm chuẩn, đạt
+                            thành tích cao trong kỳ thi...
+                        </p>
+                    </div>
+                </div>
+                <div class="slide__item">
+                    <div class="slide__item_thumb">
+                        <img src="assets/images/pages/top/course-02.png" alt="">
+                    </div>
+                    <div class="slide__item__body flex__center__center flex__column">
+                        <h3 class="study__program_reviews_list_title flex__center__center flex__column">
+                            Bé <strong>Kim Duyên</strong>
+                        </h3>
+                        <p class="study__program_reviews_list_desc">
+                            Tiếng Anh lớp 3 - Phát âm chuẩn, đạt
+                            thành tích cao trong kỳ thi...
+                        </p>
+                    </div>
+                </div>
+                <div class="slide__item">
+                    <div class="slide__item_thumb">
+                        <img src="assets/images/pages/top/course-03.png" alt="">
+                    </div>
+                    <div class="slide__item__body flex__center__center flex__column">
+                        <h3 class="study__program_reviews_list_title flex__center__center flex__column">
+                            Bé <strong>Linh Chi</strong>
+                        </h3>
+                        <p class="study__program_reviews_list_desc">
+                            Tiếng Anh lớp 3 - Phát âm chuẩn, đạt
+                            thành tích cao trong kỳ thi...
+                        </p>
+                    </div>
+                </div>
+                <div class="slide__item">
+                    <div class="slide__item_thumb">
+                        <img src="assets/images/pages/top/course-04.png" alt="">
+                    </div>
+                    <div class="slide__item__body flex__center__center flex__column">
+                        <h3 class="study__program_reviews_list_title flex__center__center flex__column">
+                            Bé <strong>Trúc Anh</strong>
+                        </h3>
+                        <p class="study__program_reviews_list_desc">
+                            Tiếng Anh lớp 3 - Phát âm chuẩn, đạt
+                            thành tích cao trong kỳ thi...
+                        </p>
+                    </div>
+                </div>
+                <div class="slide__item">
+                    <div class="slide__item_thumb">
+                        <img src="assets/images/pages/top/course-03.png" alt="">
+                    </div>
+                    <div class="slide__item__body flex__center__center flex__column">
+                        <h3 class="study__program_reviews_list_title flex__center__center flex__column">
+                            Bé <strong>Linh Chi</strong>
+                        </h3>
+                        <p class="study__program_reviews_list_desc">
+                            Tiếng Anh lớp 3 - Phát âm chuẩn, đạt
+                            thành tích cao trong kỳ thi...
+                        </p>
+                    </div>
+                </div>
+                <div class="slide__item">
+                    <div class="slide__item_thumb">
+                        <img src="assets/images/pages/top/course-04.png" alt="">
+                    </div>
+                    <div class="slide__item__body flex__center__center flex__column">
+                        <h3 class="study__program_reviews_list_title flex__center__center flex__column">
+                            Bé <strong>Trúc Anh</strong>
+                        </h3>
+                        <p class="study__program_reviews_list_desc">
+                            Tiếng Anh lớp 3 - Phát âm chuẩn, đạt
+                            thành tích cao trong kỳ thi...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Các phụ huynh nói gì về chúng tôi? -->
+        <div class="study__program_about">
+            <div class="study__program_about_wp">
+                <h2 class="study__program_about_title">Đội ngũ giáo viên</h2>
+                <div class="study__program_tabs flex__between__start">
+                    <div class="study__program_tabs-items active">
+                        <div class="avt-box tabs-items__header ">
+                            <img src="assets/images/pages/top/parent-01.png" alt="">
+                        </div>
+                        <div class="tabs-items__body flex__center__center flex__column">
+                            <h3 class="parent__name">Chị Hồng Nhung</h3>
+                            <p class="parent__loc">Phường Thanh Mai</p>
+                        </div>
+                    </div>
+                    <div class="study__program_tabs-items">
+                        <div class="avt-box tabs-items__header">
+                            <img src="assets/images/pages/top/parent-02.png" alt="">
+                        </div>
+                        <div class="tabs-items__body flex__center__center flex__column">
+                            <h3 class="parent__name">Anh Hai Mưa</h3>
+                            <p class="parent__loc">Phường Cống Vị</p>
+                        </div>
+                    </div>
+                    <div class="study__program_tabs-items">
+                        <div class="avt-box tabs-items__header">
+                            <img src="assets/images/pages/top/parent-03.png" alt="">
+                        </div>
+                        <div class="tabs-items__body flex__center__center flex__column">
+                            <h3 class="parent__name">Anh Khải Hoàng</h3>
+                            <p class="parent__loc">Đường Bàu Cát</p>
+                        </div>
+                    </div>
+                    <div class="study__program_tabs-items">
+                        <div class="avt-box tabs-items__header">
+                            <img src="assets/images/pages/top/parent-04.png" alt="">
+                        </div>
+                        <div class="tabs-items__body flex__center__center flex__column">
+                            <h3 class="parent__name">Cô Hoàng Ngân</h3>
+                            <p class="parent__loc">Phố Hoàng Ngân</p>
+                        </div>
+                    </div>
+                    <div class="study__program_tabs-items">
+                        <div class="avt-box tabs-items__header">
+                            <img src="assets/images/pages/top/parent-05.png" alt="">
+                        </div>
+                        <div class="tabs-items__body flex__center__center flex__column">
+                            <h3 class="parent__name">Chị Ngọc Minh</h3>
+                            <p class="parent__loc">Phường Trúc Bạch</p>
+                        </div>
+                    </div>
+                    <div class="study__program_tabs-items">
+                        <div class="avt-box tabs-items__header flex__center__center last-item">
+                            +12
+                        </div>
+                    </div>
+                </div>
+
+                <div class="study__program_slider">
+                    <div class="study__program_slider-items flex__between__center">
+                        <div class="slide-items__body">
+                            <img class="stupid" src="assets/images/pages/top/stupid.png" alt="">
+                            <h2 class="slide-items__body_message">
+                                VuiHọc Eng đã giúp em Thái Dúi nhà tôi vươn từ vị trí 31/33 lên top 1 toàn trường. Hoàn
+                                thành xuất sắc nhiệm vụ được giao
+                            </h2>
+                            <div class="slide-items__body_info">
+                                <h3 class="parent__name">Chị Hồng Nhung</h3>
+                                <p class="parent__loc">Phường Thanh Mai</p>
+                            </div>
+                        </div>
+                        <div class="avt-box slide-items__avatar">
+                            <img src="assets/images/pages/top/parent-01.png" alt="">
+                        </div>
+                    </div>
+                    <div class="study__program_slider-items flex__between__center">
+                        <div class="slide-items__body">
+                            <img class="stupid" src="assets/images/pages/top/stupid.png" alt="">
+                            <h2 class="slide-items__body_message">
+                                VuiHọc Eng đã giúp em Thái Dúi nhà tôi vươn từ vị trí 31/33 lên top 1 toàn trường. Hoàn
+                                thành xuất sắc nhiệm vụ được giao
+                            </h2>
+                            <div class="slide-items__body_info">
+                                <h3 class="parent__name">Anh Hai Mưa</h3>
+                                <p class="parent__loc">Phường Cống Vị</p>
+                            </div>
+                        </div>
+                        <div class="avt-box slide-items__avatar">
+                            <img src="assets/images/pages/top/parent-02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="study__program_slider-items flex__between__center">
+                        <div class="slide-items__body">
+                            <img class="stupid" src="assets/images/pages/top/stupid.png" alt="">
+                            <h2 class="slide-items__body_message">
+                                VuiHọc Eng đã giúp em Thái Dúi nhà tôi vươn từ vị trí 31/33 lên top 1 toàn trường. Hoàn
+                                thành xuất sắc nhiệm vụ được giao
+                            </h2>
+                            <div class="slide-items__body_info">
+                                <h3 class="parent__name">Anh Khải Hoàng</h3>
+                                <p class="parent__loc">Đường Bàu Cát</p>
+                            </div>
+                        </div>
+                        <div class="avt-box slide-items__avatar">
+                            <img src="assets/images/pages/top/parent-03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="study__program_slider-items flex__between__center">
+                        <div class="slide-items__body">
+                            <img class="stupid" src="assets/images/pages/top/stupid.png" alt="">
+                            <h2 class="slide-items__body_message">
+                                VuiHọc Eng đã giúp em Thái Dúi nhà tôi vươn từ vị trí 31/33 lên top 1 toàn trường. Hoàn
+                                thành xuất sắc nhiệm vụ được giao
+                            </h2>
+                            <div class="slide-items__body_info">
+                                <h3 class="parent__name">Cô Hoàng Ngân</h3>
+                                <p class="parent__loc">Phố Hoàng Ngân</p>
+                            </div>
+                        </div>
+                        <div class="avt-box slide-items__avatar">
+                            <img src="assets/images/pages/top/parent-04.png" alt="">
+                        </div>
+                    </div>
+                    <div class="study__program_slider-items flex__between__center">
+                        <div class="slide-items__body">
+                            <img class="stupid" src="assets/images/pages/top/stupid.png" alt="">
+                            <h2 class="slide-items__body_message">
+                                VuiHọc Eng đã giúp em Thái Dúi nhà tôi vươn từ vị trí 31/33 lên top 1 toàn trường. Hoàn
+                                thành xuất sắc nhiệm vụ được giao
+                            </h2>
+                            <div class="slide-items__body_info">
+                                <h3 class="parent__name">Chị Ngọc Minh</h3>
+                                <p class="parent__loc">Phường Trúc Bạch</p>
+                            </div>
+                        </div>
+                        <div class="avt-box slide-items__avatar">
+                            <img src="assets/images/pages/top/parent-05.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Đăng ký ngay để nhận ưu đãi -->
+        <div class="study__program_form">
+            <img class="main__visual_img" src="assets/images/pages/top/uudai.jpg" alt="">
+            <div class="study__program_content">
+                <h3 class="study__program_form_title">Đăng kí ngay để nhận ưu đãi</h3>
+                <div class="study__program_form_widget flex__between__center">
+                    <div class="study__program_form_widget_fomo">
+                        <h3 class="study__program_form_widget_fomo_title">Thời gian ưu đãi cho khóa học</h3>
+                        <ul class="study__program_form_widget_fomo_time_list flex__between__center">
+                            <li>
+                                <div class="li__content flex__center__center flex__column">
+                                    <span class="number" id="number_mon">0</span>
+                                    <span class="text">Ngày</span>
+                                </div>
+                                <svg class="ant-progress-circle " viewBox="0 0 100 100">
+                                    <path class="ant-progress-circle-trail" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 295.31px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                    <path id='path__mon' class="ant-progress-circle-path" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke="" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 0px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="li__content flex__center__center flex__column">
+                                    <span class="number" id="number_day">0</span>
+                                    <span class="text">Giờ</span>
+                                </div>
+                                <svg class="ant-progress-circle " viewBox="0 0 100 100">
+                                    <path class="ant-progress-circle-trail" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 295.31px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                    <path id='path__day' class="ant-progress-circle-path" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke="" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 0px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="li__content flex__center__center flex__column">
+                                    <span class="number" id="number_min">0</span>
+                                    <span class="text">Phút</span>
+                                </div>
+                                <svg class="ant-progress-circle " viewBox="0 0 100 100">
+                                    <path class="ant-progress-circle-trail" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 295.31px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                    <path id='path__min' class="ant-progress-circle-path" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke="" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 0px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="li__content flex__center__center flex__column">
+                                    <span class="number" id="number_sec">0</span>
+                                    <span class="text">Giây</span>
+                                </div>
+                                <svg class="ant-progress-circle" viewBox="0 0 100 100">
+                                    <path class="ant-progress-circle-trail" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 295.31px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                    <path id='path__sec' class="ant-progress-circle-path" d="M 50,50 m 0,-47
+   a 47,47 0 1 1 0,94
+   a 47,47 0 1 1 0,-94" stroke="" stroke-linecap="round" stroke-width="6" fill-opacity="0"
+                                        style="stroke-dasharray: 0px, 295.31px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+                                    </path>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="study__program_widget_form">
+                        <form action="">
+                            <div class="vuihoc-input">
+                                <span class="vuihoc-input__placeholder">Họ tên con <span>*</span></span>
+                                <input type="text" class="input__field" required />
+                                <span class="vuihoc-input__icon flex__center__center">
+                                    <svg width="21" height="24" viewBox="0 0 21 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.9719 15.0281L10.5 19.5L6.02813 15.0281C2.67656 15.1734 0 17.9156 0 21.2999V21.75C0 22.9921 1.00781 24 2.25 24H18.75C19.9922 24 21 22.9921 21 21.75V21.2999C21 17.9156 18.3234 15.1734 14.9719 15.0281ZM0.6375 3.74058L0.9375 3.81089V6.54839C0.609375 6.74526 0.375 7.08745 0.375 7.49995C0.375 7.8937 0.590625 8.22183 0.895313 8.42339L0.164062 11.3437C0.084375 11.6671 0.2625 12 0.520313 12H2.47969C2.7375 12 2.91563 11.6671 2.83594 11.3437L2.10469 8.42339C2.40938 8.22183 2.625 7.8937 2.625 7.49995C2.625 7.08745 2.39062 6.74526 2.0625 6.54839V4.08276L5.15625 4.82808C4.75313 5.63433 4.5 6.53433 4.5 7.49995C4.5 10.814 7.18594 13.5 10.5 13.5C13.8141 13.5 16.5 10.814 16.5 7.49995C16.5 6.53433 16.2516 5.63433 15.8438 4.82808L20.3578 3.74058C21.2109 3.53433 21.2109 2.47026 20.3578 2.26401L11.4328 0.107764C10.8234 -0.0375488 10.1812 -0.0375488 9.57187 0.107764L0.6375 2.25933C-0.210938 2.46558 -0.210938 3.53433 0.6375 3.74058Z"
+                                            fill="#D6D9E4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="vuihoc-input">
+                                <span class="vuihoc-input__placeholder">Số điện thoại <span>*</span></span>
+                                <input type="number" class="input__field" required>
+                                <span class="vuihoc-input__icon flex__center__center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z"
+                                            fill="#D6D9E4" />
+                                    </svg>
+
+                                </span>
+                            </div>
+                            <div class="vuihoc-input">
+                                <span class="vuihoc-input__placeholder">Chọn khoá học</span>
+                                <!-- <input type="text" class="input__field" /> -->
+                                <select class="input__field" required>
+                                    <option value="">Chọn khoá học</option>
+                                    <option value="vi">Tiếng Việt</option>
+                                    <option value="eng">Tiếng Anh</option>
+                                    <option value="math">Toán</option>
+                                </select>
+                                <span class="vuihoc-input__icon flex__center__center">
+                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.41 0.590088L6 5.17009L10.59 0.590088L12 2.00009L6 8.00009L0 2.00009L1.41 0.590088Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </span>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary wp__button_register">
+                                Đăng kí ngay
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Các khoá học khác cho con tại #VuiHocEng -->
+        <div class="study__program">
+            <h2 class="study__program_title">Các khoá học khác cho con tại <span> #VuiHocEng</span></h2>
+            <div class="study__program_detail flex__between__stretch">
+                <div class="study__program_detail_item">
+                    <a href="#">
+                        <div class="study__program_detail_item_img">
+                            <img class="study__program_img" src="assets/images/icons/to-03.png" alt="">
+                        </div>
+                        <div class="study__program_detail_item_detail">
+                            <div class="study__program_detail_item_text">
+                                <h3 class="study__program_detail_item_h3">
+                                    Khóa học tốt <br />Toán 3
+                                </h3>
+                                <p class="study__program_detail_item_p">
+                                    320 bài học <br>
+                                    Phát âm chuẩn quốc tế<br>
+                                    2 level dễ, khó
+                                </p>
+                            </div>
+                            <button class="study__program_detail_item_btn study__program_detail_item_btn--outline btn btn--primary">tìm hiểu thêm</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="study__program_detail_item">
+                    <a href="#">
+                        <div class="study__program_detail_item_img">
+                            <img class="study__program_img " src="assets/images/icons/to-04.png" alt="">
+                        </div>
+                        <div class="study__program_detail_item_detail">
+                            <div class="study__program_detail_item_text">
+                                <h3 class="study__program_detail_item_h3">
+                                    <h3 class="study__program_detail_item_h3">
+                                        Khóa học tốt <br />Toán 4
+                                    </h3>
+                                </h3>
+                                <p class="study__program_detail_item_p">
+                                    320 bài học <br>
+                                    Phát âm chuẩn quốc tế<br>
+                                    2 level dễ, khó
+                                </p>
+                            </div>
+                            <button class="study__program_detail_item_btn study__program_detail_item_btn--outline btn btn--primary">tìm hiểu thêm</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="study__program_detail_item">
+                    <a href="#">
+                        <div class="study__program_detail_item_img">
+                            <img class="study__program_img " src="assets/images/icons/to-05.png" alt="">
+                        </div>
+                        <div class="study__program_detail_item_detail">
+                            <div class="study__program_detail_item_text">
+                                <h3 class="study__program_detail_item_h3">
+                                    <h3 class="study__program_detail_item_h3">
+                                        Khóa học tốt <br />Toán 5
+                                    </h3>
+                                </h3>
+                                <p class="study__program_detail_item_p">
+                                    320 bài học <br>
+                                    Phát âm chuẩn quốc tế<br>
+                                    2 level dễ, khó
+                                </p>
+                            </div>
+                            <button class="study__program_detail_item_btn study__program_detail_item_btn--outline btn btn--primary">tìm hiểu thêm</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer__body flex__between__start">
+            <div class="footer__logo">
+                <img class="vh-logo" src="assets/images/icons/vh-logo.png" alt="">
+                <div class="flex__between__center">
+                    <img src="assets/images/icons/fb.png" alt="">
+                    <img src="assets/images/icons/youtube.png" alt="">
+                    <img src="assets/images/icons/zalo.png" alt="">
+                </div>
+            </div>
+            <div class="wp_container">
+                <div class="footer__support">
+                    <h3 class="title">HỖ TRỢ KHÁCH HÀNG</h3>
+                    <a class="text" href="#">Câu hỏi thường gặp</a>
+                    <a class="text" href="#">Hình thức thanh toán</a>
+                    <a class="text" href="#">Trả hàng & Hoàn tiền</a>
+                    <a class="text" href="#">Chính sách bảo mật</a>
+                </div>
+                <div class="footer__about-us">
+                    <h3 class="title">VỀ CHÚNG TÔI</h3>
+                    <a class="text" href="#">Giớii thiệu</a>
+                    <a class="text" href="#">Tuyển dụng</a>
+                    <a class="text" href="#">Sơ đồ trang web</a>
+                </div>
+            </div>
+            <div class="footer__contact">
+                <h3 class="title">LIÊN HỆ</h3>
+                <div class="flex__start__stretch">
+                    <div class="image flex__start__center">
+                        <img src="assets/images/icons/hotline.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p class="text">Hotline:</p>
+                        <a href="tel:9031208686" class="big-title">903.120.8686</a>
+                        <p class="text">(8h15 - 21h30)</p>
+                    </div>
+                </div>
+                <div class="flex__start__stretch">
+                    <div class="image flex__start__center">
+                        <img src="assets/images/icons/mail.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p class="text">Mail:</p>
+                        <h3 class="big-title">support@vuihoc.com</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_app flex__between__center">
+                <img src="assets/images/icons/ios-app.png" alt="">
+                <img src="assets/images/icons/apk-app.png" alt="">
+            </div>
+        </div>
+        <div class="footer__bottom flex__between__center">
+            <div class="vuihoc__contact">
+                GPKD số: 0107048438 do Sở Kế hoạch và đầu tư thành phố Hà Nội cấp ngày 20/10/2015. <br>
+                Địa chỉ: Số 8B, ngách 62, ngõ 373, đường Ngọc Hồi, thị trấn Văn Điển, huyện Thanh Trì, Hà Nội. <br>
+                Email: hotro@vuihoc.vn - Điện thoại: 024 6292 6092 <br>
+                Người đại diện: Đỗ Ngọc Lâm
+            </div>
+            <div class="vuihoc__bct">
+                <img src="assets/images/vh_bct.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Authentication -->
+    <div class="modal__authentication flex__center__center" id='js__modal'>
+        <div class="modal__content flex__start__start">
+            <img class="modal__background" src="assets/images/modal/modal-bg.png" alt="">
+            <div class="modal__form-content flex__start__center flex__column">
+                <h3 class="form__heading">
+                    <img class="btn__prev" src="assets/images/icons/prev-black.png" alt="" />
+                </h3>
+                <div class="formbox flex__center__center">
+                    <div id="js__form-tabs" class="form__tabs">
+                        <ul class="tabs__group-label flex__center__center">
+                            <li class="tabs__label " data-bg="assets/images/modal/modal-bg.png"><a href="#0">Đăng nhập</a></li>
+                            <li class="tabs__label" data-bg="assets/images/modal/modal-bg-2.png"><a href="#0">Đăng kí </a></li>
+                        </ul>
+                        <div class="tabs-1 opacity">
+                            <form class="form form__signin">
+                                <div class="vuihoc-input">
+                                    <span class="vuihoc-input__placeholder">Email / Số điện thoại</span>
+                                    <input type="text" class="input__field" />
+                                    <span class="vuihoc-input__icon flex__center__center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.9902 0C5.47023 0 0.990234 4.48 0.990234 10C0.990234 15.52 5.47023 20 10.9902 20C16.5102 20 20.9902 15.52 20.9902 10C20.9902 4.48 16.5102 0 10.9902 0ZM14.6002 6.34C15.6702 6.34 16.5302 7.2 16.5302 8.27C16.5302 9.34 15.6702 10.2 14.6002 10.2C13.5302 10.2 12.6702 9.34 12.6702 8.27C12.6602 7.2 13.5302 6.34 14.6002 6.34ZM8.60023 4.76C9.90024 4.76 10.9602 5.82 10.9602 7.12C10.9602 8.42 9.90024 9.48 8.60023 9.48C7.30023 9.48 6.24023 8.42 6.24023 7.12C6.24023 5.81 7.29024 4.76 8.60023 4.76ZM8.60023 13.89V17.64C6.20023 16.89 4.30023 15.04 3.46023 12.68C4.51023 11.56 7.13023 10.99 8.60023 10.99C9.13023 10.99 9.80023 11.07 10.5002 11.21C8.86023 12.08 8.60023 13.23 8.60023 13.89ZM10.9902 18C10.7202 18 10.4602 17.99 10.2002 17.96V13.89C10.2002 12.47 13.1402 11.76 14.6002 11.76C15.6702 11.76 17.5202 12.15 18.4402 12.91C17.2702 15.88 14.3802 18 10.9902 18Z"
+                                                fill="#D6D9E4" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="vuihoc-input">
+                                    <span class="vuihoc-input__placeholder">Mật khẩu</span>
+                                    <input type="password" class="input__field" id='js__input-pass' />
+                                    <span
+                                        class="input__visible-pass vuihoc-input__icon flex__center__center js__visible-pass">
+                                        <svg width="21" height="12" viewBox="0 0 21 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.9767 5.55533C19.7981 5.32876 15.5042 0 10.126 0C4.74779 0 0.453887 5.32876 0.275332 5.55533C0.0761914 5.80858 0.0761914 6.19142 0.275332 6.44467C0.453887 6.67124 4.74787 12 10.126 12C15.5041 12 19.7981 6.67124 19.9767 6.44467C20.1758 6.19142 20.1758 5.80858 19.9767 5.55533Z"
+                                                fill="#D6D9E4" />
+                                            <circle cx="10.126" cy="6" r="4" fill="white" />
+                                            <path
+                                                d="M10.7574 4.8C10.7574 4.1964 11.0596 3.6654 11.5194 3.3388C11.1068 3.1294 10.6467 3 10.1522 3C8.48391 3 7.12646 4.34588 7.12646 6C7.12646 7.65412 8.48391 9 10.1522 9C11.6459 9 12.8822 7.91864 13.1265 6.50568C11.9078 6.89468 10.7574 5.98088 10.7574 4.8Z"
+                                                fill="#D6D9E4" />
+                                        </svg>
+                                    </span>
+                                </div>
+
+                                <div class="btn btn--primary btn__login flex__center__center">Đăng nhập</div>
+                                <span class="forget-pass js__toggle-psw" id=''>Quên mật khẩu</span>
+
+                                <p class="login-with"><span>hoặc</span></p>
+                                <div class="btn btn--google flex__center__center">đăng nhập với google</div>
+                                <div class="btn btn--facebook flex__center__center">đăng nhập với facebook</div>
+                            </form>
+                        </div>
+                        <div class="tabs-2 opacity">
+                            <form class="form form__signup">
+                                <div class="vuihoc-input">
+                                    <span class="vuihoc-input__placeholder">Họ và tên</span>
+                                    <input type="text" class="input__field" />
+                                    <span class="vuihoc-input__icon flex__center__center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.9902 0C5.47023 0 0.990234 4.48 0.990234 10C0.990234 15.52 5.47023 20 10.9902 20C16.5102 20 20.9902 15.52 20.9902 10C20.9902 4.48 16.5102 0 10.9902 0ZM14.6002 6.34C15.6702 6.34 16.5302 7.2 16.5302 8.27C16.5302 9.34 15.6702 10.2 14.6002 10.2C13.5302 10.2 12.6702 9.34 12.6702 8.27C12.6602 7.2 13.5302 6.34 14.6002 6.34ZM8.60023 4.76C9.90024 4.76 10.9602 5.82 10.9602 7.12C10.9602 8.42 9.90024 9.48 8.60023 9.48C7.30023 9.48 6.24023 8.42 6.24023 7.12C6.24023 5.81 7.29024 4.76 8.60023 4.76ZM8.60023 13.89V17.64C6.20023 16.89 4.30023 15.04 3.46023 12.68C4.51023 11.56 7.13023 10.99 8.60023 10.99C9.13023 10.99 9.80023 11.07 10.5002 11.21C8.86023 12.08 8.60023 13.23 8.60023 13.89ZM10.9902 18C10.7202 18 10.4602 17.99 10.2002 17.96V13.89C10.2002 12.47 13.1402 11.76 14.6002 11.76C15.6702 11.76 17.5202 12.15 18.4402 12.91C17.2702 15.88 14.3802 18 10.9902 18Z"
+                                                fill="#D6D9E4" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="vuihoc-input">
+                                    <span class="vuihoc-input__placeholder">Email / Số điện thoại</span>
+                                    <input type="text" class="input__field" />
+                                    <span class="vuihoc-input__icon flex__center__center">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.9902 0C5.47023 0 0.990234 4.48 0.990234 10C0.990234 15.52 5.47023 20 10.9902 20C16.5102 20 20.9902 15.52 20.9902 10C20.9902 4.48 16.5102 0 10.9902 0ZM14.6002 6.34C15.6702 6.34 16.5302 7.2 16.5302 8.27C16.5302 9.34 15.6702 10.2 14.6002 10.2C13.5302 10.2 12.6702 9.34 12.6702 8.27C12.6602 7.2 13.5302 6.34 14.6002 6.34ZM8.60023 4.76C9.90024 4.76 10.9602 5.82 10.9602 7.12C10.9602 8.42 9.90024 9.48 8.60023 9.48C7.30023 9.48 6.24023 8.42 6.24023 7.12C6.24023 5.81 7.29024 4.76 8.60023 4.76ZM8.60023 13.89V17.64C6.20023 16.89 4.30023 15.04 3.46023 12.68C4.51023 11.56 7.13023 10.99 8.60023 10.99C9.13023 10.99 9.80023 11.07 10.5002 11.21C8.86023 12.08 8.60023 13.23 8.60023 13.89ZM10.9902 18C10.7202 18 10.4602 17.99 10.2002 17.96V13.89C10.2002 12.47 13.1402 11.76 14.6002 11.76C15.6702 11.76 17.5202 12.15 18.4402 12.91C17.2702 15.88 14.3802 18 10.9902 18Z"
+                                                fill="#D6D9E4" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="vuihoc-input">
+                                    <span class="vuihoc-input__placeholder">Mật khẩu</span>
+                                    <input type="password" class="input__field" id='js__input-pass' />
+                                    <span
+                                        class="input__visible-pass vuihoc-input__icon flex__center__center js__visible-pass">
+                                        <svg width="21" height="12" viewBox="0 0 21 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.9767 5.55533C19.7981 5.32876 15.5042 0 10.126 0C4.74779 0 0.453887 5.32876 0.275332 5.55533C0.0761914 5.80858 0.0761914 6.19142 0.275332 6.44467C0.453887 6.67124 4.74787 12 10.126 12C15.5041 12 19.7981 6.67124 19.9767 6.44467C20.1758 6.19142 20.1758 5.80858 19.9767 5.55533Z"
+                                                fill="#D6D9E4" />
+                                            <circle cx="10.126" cy="6" r="4" fill="white" />
+                                            <path
+                                                d="M10.7574 4.8C10.7574 4.1964 11.0596 3.6654 11.5194 3.3388C11.1068 3.1294 10.6467 3 10.1522 3C8.48391 3 7.12646 4.34588 7.12646 6C7.12646 7.65412 8.48391 9 10.1522 9C11.6459 9 12.8822 7.91864 13.1265 6.50568C11.9078 6.89468 10.7574 5.98088 10.7574 4.8Z"
+                                                fill="#D6D9E4" />
+                                        </svg>
+                                    </span>
+                                </div>
+
+                                <div class="btn btn--primary btn__login flex__center__center">Đăng kí</div>
+
+                                <br />
+                                <p class="login-with"><span>hoặc</span></p>
+                                <div class="btn btn--google flex__center__center">đăng nhập với google</div>
+                                <div class="btn btn--facebook flex__center__center">đăng nhập với facebook</div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id='js__form-pwd' class="form__pwd">
+                        <form class="form form__signin">
+                            <h3 class="form__title">Quên mật khẩu</h3>
+                            <div class="vuihoc-input">
+                                <span class="vuihoc-input__placeholder">Email / Số điện thoại</span>
+                                <input type="text" class="input__field" />
+                                <span class="vuihoc-input__icon flex__center__center">
+                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.9902 0C5.47023 0 0.990234 4.48 0.990234 10C0.990234 15.52 5.47023 20 10.9902 20C16.5102 20 20.9902 15.52 20.9902 10C20.9902 4.48 16.5102 0 10.9902 0ZM14.6002 6.34C15.6702 6.34 16.5302 7.2 16.5302 8.27C16.5302 9.34 15.6702 10.2 14.6002 10.2C13.5302 10.2 12.6702 9.34 12.6702 8.27C12.6602 7.2 13.5302 6.34 14.6002 6.34ZM8.60023 4.76C9.90024 4.76 10.9602 5.82 10.9602 7.12C10.9602 8.42 9.90024 9.48 8.60023 9.48C7.30023 9.48 6.24023 8.42 6.24023 7.12C6.24023 5.81 7.29024 4.76 8.60023 4.76ZM8.60023 13.89V17.64C6.20023 16.89 4.30023 15.04 3.46023 12.68C4.51023 11.56 7.13023 10.99 8.60023 10.99C9.13023 10.99 9.80023 11.07 10.5002 11.21C8.86023 12.08 8.60023 13.23 8.60023 13.89ZM10.9902 18C10.7202 18 10.4602 17.99 10.2002 17.96V13.89C10.2002 12.47 13.1402 11.76 14.6002 11.76C15.6702 11.76 17.5202 12.15 18.4402 12.91C17.2702 15.88 14.3802 18 10.9902 18Z"
+                                            fill="#D6D9E4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="btn btn--primary btn__login js__rspwd-next" id=''>Tiếp tục</div>
+                            <div class="btn btn__login btn--light js__rspwd-back" id=''>Quay lại</div>
+                        </form>
+                    </div>
+
+                    <div id='js__form-rspwd' class="form__rspwd">
+                        <form class="form form__signin">
+                            <h3 class="form__title">Đổi mật khẩu</h3>
+                            <div class="vuihoc-input">
+                                <span class="vuihoc-input__placeholder">Nhập mật khẩu mới</span>
+                                <input type="password" class="input__field" id='js__input-pass' />
+                                <span
+                                    class="input__visible-pass vuihoc-input__icon flex__center__center js__visible-pass">
+                                    <svg width="21" height="12" viewBox="0 0 21 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.9767 5.55533C19.7981 5.32876 15.5042 0 10.126 0C4.74779 0 0.453887 5.32876 0.275332 5.55533C0.0761914 5.80858 0.0761914 6.19142 0.275332 6.44467C0.453887 6.67124 4.74787 12 10.126 12C15.5041 12 19.7981 6.67124 19.9767 6.44467C20.1758 6.19142 20.1758 5.80858 19.9767 5.55533Z"
+                                            fill="#D6D9E4" />
+                                        <circle cx="10.126" cy="6" r="4" fill="white" />
+                                        <path
+                                            d="M10.7574 4.8C10.7574 4.1964 11.0596 3.6654 11.5194 3.3388C11.1068 3.1294 10.6467 3 10.1522 3C8.48391 3 7.12646 4.34588 7.12646 6C7.12646 7.65412 8.48391 9 10.1522 9C11.6459 9 12.8822 7.91864 13.1265 6.50568C11.9078 6.89468 10.7574 5.98088 10.7574 4.8Z"
+                                            fill="#D6D9E4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="vuihoc-input">
+                                <span class="vuihoc-input__placeholder">Nhập lại mật khẩu</span>
+                                <input type="password" class="input__field" id='js__input-pass' />
+                                <span
+                                    class="input__visible-pass vuihoc-input__icon flex__center__center js__visible-pass">
+                                    <svg width="21" height="12" viewBox="0 0 21 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.9767 5.55533C19.7981 5.32876 15.5042 0 10.126 0C4.74779 0 0.453887 5.32876 0.275332 5.55533C0.0761914 5.80858 0.0761914 6.19142 0.275332 6.44467C0.453887 6.67124 4.74787 12 10.126 12C15.5041 12 19.7981 6.67124 19.9767 6.44467C20.1758 6.19142 20.1758 5.80858 19.9767 5.55533Z"
+                                            fill="#D6D9E4" />
+                                        <circle cx="10.126" cy="6" r="4" fill="white" />
+                                        <path
+                                            d="M10.7574 4.8C10.7574 4.1964 11.0596 3.6654 11.5194 3.3388C11.1068 3.1294 10.6467 3 10.1522 3C8.48391 3 7.12646 4.34588 7.12646 6C7.12646 7.65412 8.48391 9 10.1522 9C11.6459 9 12.8822 7.91864 13.1265 6.50568C11.9078 6.89468 10.7574 5.98088 10.7574 4.8Z"
+                                            fill="#D6D9E4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="btn btn--primary btn__login">Tiếp tục</div>
+                            <div class="btn btn__login btn--light js__rspwd-back" id=''>Quay lại</div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <img id='js__modal-close' class="modal__close" src="assets/images/icons/x-black.png"></img>
+        </div>
+    </div>
+
+    <div class="modal__authentication register flex__center__center" id='js__modal_register'>
+        <div class="modal__content flex__start__start">
+            <div class="modal__form-content flex__start__center flex__column">
+                <img class="modal__close" src="assets/images/icons/x-black.png"></img>
+                <h3 class="form__title">điền thông tin để nhận ưu đãi ngay</h3>
+                <div class="vuihoc-input">
+                    <span class="vuihoc-input__placeholder">Họ tên con*</span>
+                    <input type="text" class="input__field">
+                    <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.9719 15.0281L10.5 19.5L6.02813 15.0281C2.67656 15.1734 0 17.9156 0 21.2999V21.75C0 22.9921 1.00781 24 2.25 24H18.75C19.9922 24 21 22.9921 21 21.75V21.2999C21 17.9156 18.3234 15.1734 14.9719 15.0281ZM0.6375 3.74058L0.9375 3.81089V6.54839C0.609375 6.74526 0.375 7.08745 0.375 7.49995C0.375 7.8937 0.590625 8.22183 0.895313 8.42339L0.164062 11.3437C0.084375 11.6671 0.2625 12 0.520313 12H2.47969C2.7375 12 2.91563 11.6671 2.83594 11.3437L2.10469 8.42339C2.40938 8.22183 2.625 7.8937 2.625 7.49995C2.625 7.08745 2.39062 6.74526 2.0625 6.54839V4.08276L5.15625 4.82808C4.75313 5.63433 4.5 6.53433 4.5 7.49995C4.5 10.814 7.18594 13.5 10.5 13.5C13.8141 13.5 16.5 10.814 16.5 7.49995C16.5 6.53433 16.2516 5.63433 15.8438 4.82808L20.3578 3.74058C21.2109 3.53433 21.2109 2.47026 20.3578 2.26401L11.4328 0.107764C10.8234 -0.0375488 10.1812 -0.0375488 9.57187 0.107764L0.6375 2.25933C-0.210938 2.46558 -0.210938 3.53433 0.6375 3.74058Z"
+                            fill="#D6D9E4" />
+                    </svg>
+
+                </div>
+                <div class="vuihoc-input">
+                    <span class="vuihoc-input__placeholder">Số điện thoại*</span>
+                    <input type="text" class="input__field">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z"
+                            fill="#D6D9E4" />
+                    </svg>
+
+                </div>
+                <div class="vuihoc-input">
+                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.41 0.590088L6 5.17009L10.59 0.590088L12 2.00009L6 8.00009L0 2.00009L1.41 0.590088Z"
+                            fill="black" />
+                    </svg>
+
+                    <select name="" id="course__list">
+                        <option value="0">abc</option>
+                        <option value="0">xyz</option>
+                    </select>
+                </div>
+                <div class="wp__btn_next">
+                    <div class="btn__next">tiếp tục
+                        <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.01 3H0V5H12.01V8L16 4L12.01 0V3Z" fill="white" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<!-- import javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/application.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/countup.js"></script>
+
+</html>
